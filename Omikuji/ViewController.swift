@@ -9,11 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var resultImage: UIImageView!
+    
+    var omikujiImages = [#imageLiteral(resourceName: "daikichi"), #imageLiteral(resourceName: "chuukichi"), #imageLiteral(resourceName: "syoukichi"), #imageLiteral(resourceName: "kichi"), #imageLiteral(resourceName: "kyou")]
+
+    @IBAction func omikujiButton(_ sender: Any) {
+        //omikujiButton が押されたときの action
+        
+        
     }
-
-
+    
 }
 
